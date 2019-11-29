@@ -1,14 +1,14 @@
 
-# 1. create VPC
+#  - create VPC
 IP 10.0.0.0/16
 
-# 2. create public subnet
+#  - create public subnet
 IPv4 CIDR block: 10.0.1.0/24
-
-# 3. create internate gateway
+![Image of VPC](https://github.com/Yunmi0310/AWS/blob/master/JUMPBOX/pictures/Public_subnet.png)
+# - create internate gateway
 # 4. connect IGW to public subnet
 
-# 5. create private subnet
+# - create private subnet
 IPv4 CIDR block:10.0.2.0/24
 
 # 6. create NAT instance inside public subnet
