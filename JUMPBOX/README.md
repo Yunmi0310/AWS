@@ -6,6 +6,7 @@ IP 10.0.0.0/16
 IPv4 CIDR block: 10.0.1.0/24
 ![Image of VPC](https://github.com/Yunmi0310/AWS/blob/master/JUMPBOX/pictures/Public_subnet.png)
 # - create internate gateway
+![]
 # 4. connect IGW to public subnet
 
 # - create private subnet
