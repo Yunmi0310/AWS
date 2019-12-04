@@ -8,25 +8,26 @@
     . public IP 54.159.96.117
     
     . host name:     ubuntu@ec2-34-201-50-214.compute-1.amazonaws.com
-    .use putty and wcp to connect to instance 
+    
+    . use putty and wcp to connect to instance 
 
 2. write script in text file and save it as name.py
 
 3. install python 
 
-    `python3 name.py`
+    ` python3 `
 
 
 4. open it in python distant space(python3 filename.py)
 
    `python3 name.py`  
 
-    * sudo means admmin 
-    * yum is not working in ubundtu 
-
+    
 5. install pip
 
     * update first before install 
+    * sudo means admin 
+    * yum is not working in ubundtu 
 
    `sudo apt-get update -y `
 
@@ -38,7 +39,7 @@
 
     `jupyter notebook --ip=0.0.0.0`
 
-   *  if we put 'local host:port' it is going to specific IP (looping) so should put every IP possible in front of jupyter noteboook (ip=0.0.0.0) 
+   *  if we put 'local host:port' in cmd it is going to specific IP (looping) so should put 'every IP possible' in front of jupyter noteboook (ip=0.0.0.0) 
 
 7. adjust security group 
 
@@ -53,9 +54,9 @@
 
 . copy & paste 34.201.50.214:8888/?token=cd2c94afac7efb1d179cd90fdf015e6674c67983e284ee08
 
-.public_IP+8888/?token=cd2c94afac7efb1d179cd90fdf015e6674c67983e284ee08
+.public_IP:8888/?token=cd2c94afac7efb1d179cd90fdf015e6674c67983e284ee08
 
-. copy paste URL on the browser and open 
+. copy & paste URL on the browser and open 
 
 . prevent jupyter from being closed when terminal is closed (make terminal to be blocked by jupyter)
 
@@ -65,7 +66,7 @@
 . to stop it  
  ` jupyter notebook stop `
 
-. cat:  display file in cmd
+. to display file in cmd
 
 ` cat nohup.out `
 
@@ -101,15 +102,17 @@
 
 ` pip3 freeze `
 
+. to install pandas
+
 ` pip3 install pandas ` 
  
-3. link to jupyter 
+1.2 Link to jupyter 
 
 `pip3 install ipykernel `
 
 ` python3 -m ipykernel install --user --name=Yunmi `
 
-. to put everything in txt file instead of listing
+. to store everything in txt file instead of listing
 
 ` pip3 freeze > myEnv.txt `
 
@@ -119,7 +122,7 @@
 
 ` exit `
 
-. create new envi
+. create new environmnet
 
  ` pew new yunmi2 `
 
@@ -127,7 +130,7 @@
 
 `python3 -m ipykernel install --user=yunmi2`
 
-2. Use conda
+2 . Use conda
 
 . make new directory
 
@@ -155,7 +158,7 @@
 
 `python -m ipykernel install --user --name=yunmi2`
 
-* in order to remove virutal environment
+. in order to remove virutal environment
 
 `conda env remove -n yunmi2`
 
