@@ -56,7 +56,7 @@ private subnet -(below) Route . choose NAT instance
 ![Route table_private](https://github.com/Yunmi0310/AWS/blob/master/JUMPBOX/pictures/route_table_private_subnet.png)
 
 
-# 7. Securiy group
+# 7. Security group
 . JB instance inbound
 
 Type| Protocol| Port Range| Source
@@ -87,7 +87,8 @@ All traffic |   All   |    All    | Final SG
 
 
 # 8. Ping googl.com
-. use putty to connect to JB and move JB & final instance key to JB instance using WinSCP. And then access to final instance which is insde private subnet. From final instance, ping google.com using NAT instance 
+. use putty to connect to JB and move JB & final instance key to JB instance using WinSCP. 
+. access to final instance which is insde private subnet. From final instance, ping google.com using NAT instance 
 
 
 *putty IP address: ec2-user@54.174.234.204
