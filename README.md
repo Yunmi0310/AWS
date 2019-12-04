@@ -4,6 +4,4 @@ AWS Cloud
 
 2. connect to Python
 
-3. 
-
 
