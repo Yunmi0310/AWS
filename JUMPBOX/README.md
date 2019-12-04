@@ -58,12 +58,14 @@ private subnet -(below) Route . choose NAT instance
 
 # 7. Securiy group
 . JB instance inbound
+
 Type| Protocol| Port Range| Source
 ----|---------|-----------|------------
 SSH |   TCP   |    22     | everywhere
  
 
 . Final instance inbound
+
 Type| Protocol| Port Range| Source
 ----|---------|-----------|-------------------
 SSH |   TCP   |    22     | JB security group
