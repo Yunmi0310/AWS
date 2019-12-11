@@ -1,4 +1,4 @@
-# Install R server
+# Install Rstudio server
 
 1. Launch the instance
 
