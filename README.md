@@ -5,5 +5,5 @@ AWS Cloud
 [2. install Python & create virtual environment](https://github.com/Yunmi0310/Amazon-AWS/tree/master/PYTHON)
 
 
-
+[3. Launch Rstudio](https://github.com/Yunmi0310/Amazon-AWS/tree/master/Rstudio)
 
